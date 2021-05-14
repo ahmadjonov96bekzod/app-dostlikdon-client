@@ -1,14 +1,23 @@
-import logo from './logo.svg';
+
 import './App.css';
 import {ToastContainer} from 'react-toastify'
 
+const App =()=>{
+   return(
+       <div>
 
-function App() {
-  return (
-    <div className="App">
 
-    </div>
-  );
+
+
+
+
+
+
+
+         <ToastContainer/>
+
+       </div>
+   )
 }
 
 export default App;
