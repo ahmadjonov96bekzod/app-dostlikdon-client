@@ -1,0 +1,51 @@
+body{
+  .container-1{
+
+    .carousel{
+      margin: 30px auto;
+      position: relative;
+      .carousel-item{
+        .fon{
+          height: 450px;
+        }
+      }
+      .carousel-indicators{
+        li{
+          width: 10px;
+          height: 10px;
+          border-radius: 50%;
+        }
+      }
+      .carousel-control-prev{
+
+      }
+      .carousel-control-next{
+
+      }
+      .carousel-inner{
+        .carousel-item{
+          .carousel-caption{
+            p{
+              display: none;
+            }
+            h3{
+              display: none;
+            }
+          }
+        }
+      }
+    }
+    .don-logo{
+      position: absolute;
+      top: 30%;
+      left: 48%;
+    }
+    h3{
+      position: absolute;
+      top: 65%;
+      left: 0;
+      right: 0;
+
+    }
+  }
+}

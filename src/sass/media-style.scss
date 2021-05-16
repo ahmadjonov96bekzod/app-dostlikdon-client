@@ -1,0 +1,23 @@
+.medias{
+    .nav{
+      width:40%;
+      background-color:white;
+
+
+      .nav-item{
+        width: 33.33%;
+
+
+
+        .nav-link{
+
+          &:active{
+            background-color: #229E61 !important;
+          }
+
+        }
+      }
+
+
+    }
+}

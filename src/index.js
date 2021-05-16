@@ -9,7 +9,7 @@ import App from './App';
 import {createStore} from 'redux'
 import {Provider} from 'react-redux';
 import {rootReducer} from "./redux/reducers/rootReducer";
-
+import './sass/indexjs.scss'
 const store = createStore(rootReducer);
 
 

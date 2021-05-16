@@ -1,23 +1,33 @@
 
-import './App.css';
 import {ToastContainer} from 'react-toastify'
+import {BrowserRouter, Switch, Route} from 'react-router-dom'
+import Navbar from './components/NavBar'
+import Home from './pages/Home'
+import NewsView from  './pages/NewsView'
+import Footer from './components/Footer'
 
-const App =()=>{
+
+
+const App = () =>{
    return(
-       <div>
 
+       <BrowserRouter>
 
+           <Navbar/>
 
+           <Switch>
 
+               <Route path="/" exact component={Home} />
 
+           </Switch>
 
+           <Footer/>
 
+           <ToastContainer/>
 
+       </BrowserRouter>
 
-         <ToastContainer/>
-
-       </div>
    )
-}
+};
 
-export default App;
+export default App
