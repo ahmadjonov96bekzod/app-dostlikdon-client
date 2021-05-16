@@ -5,6 +5,7 @@ import Navbar from './components/NavBar'
 import Home from './pages/Home'
 import NewsView from './pages/NewsView'
 import Footer from './components/Footer'
+import Login from './pages/Login'
 
 
 
@@ -19,7 +20,9 @@ const App = () =>{
 
                <Route path="/" exact component={Home} />
 
-               <Route path="/news-view" component={NewsView}/>
+               <Route path="/news-view" exact component={NewsView}/>
+
+               <Route path="/login" exact component={Login}/>
 
            </Switch>
 

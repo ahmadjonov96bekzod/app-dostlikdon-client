@@ -1,7 +1,9 @@
-const {combineReducers} = require ("redux")
+import {LoginReducer} from "./LoginReducer";
+
+import {combineReducers} from "redux";
 
 
 export const rootReducer = combineReducers({
-
+    login: LoginReducer
 })
 
