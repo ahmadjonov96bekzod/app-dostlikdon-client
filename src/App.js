@@ -3,7 +3,7 @@ import {ToastContainer} from 'react-toastify'
 import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Navbar from './components/NavBar'
 import Home from './pages/Home'
-import NewsView from  './pages/NewsView'
+import NewsView from './pages/NewsView'
 import Footer from './components/Footer'
 
 
@@ -18,6 +18,8 @@ const App = () =>{
            <Switch>
 
                <Route path="/" exact component={Home} />
+
+               <Route path="/news-view" component={NewsView}/>
 
            </Switch>
 

@@ -1,0 +1,45 @@
+
+.newsPage{
+  .row{
+
+    .col-8{
+      .lines{
+        .line{
+          height: 1px;
+          background-color: #E8E8EC;
+        }
+        .d-flex{
+          #foto1{
+            width: 100px;
+            height: 100px;
+            margin-right:15px;
+          }
+          #foto2{
+            width: 100px;
+            height: 100px;
+            margin-right:15px;
+          }
+          .fotos{
+            width: 120px;
+            height: 100px;
+            margin-right:15px;
+          }
+        }
+      }
+
+    }
+    .col-4{
+
+      .lines{
+        .line{
+          height: 1px;
+          background-color: #E8E8EC;
+        }
+      }
+
+      .bg-grey{
+        background-color: gainsboro;
+      }
+    }
+  }
+}
